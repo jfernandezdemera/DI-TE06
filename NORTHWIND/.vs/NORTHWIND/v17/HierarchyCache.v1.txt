@@ -1,0 +1,544 @@
+﻿++Solución "NorthWind" ‎(23 de 23 proyectos)
+++UI
+i:{00000000-0000-0000-0000-000000000000}:UI
+++NORTHWIND
+i:{06249135-d9e5-4cfa-90bb-b6861ada76d9}:NORTHWIND
+++Properties
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\properties\
+++AssemblyInfo.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\properties\assemblyinfo.cs
+++Resources.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\properties\resources.resx
+++Resources.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\properties\resources.designer.cs
+++Settings.settings
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\properties\settings.settings
+++Referencias
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+++BusquedaDataGridView
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{65732b12-10e4-45f7-b722-5283c8439795}:BusquedaDataGridView
+++CategoriasConMasProductosVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\categoriasconmasproductosvo\bin\debug\net472\categoriasconmasproductosvo.exe
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\categoriasconmasproductosvo\bin\debug\net472\categoriasconmasproductosvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:CategoriasConMasProductosVO
+++CategoriasExistentesVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\categoriasexistentesvo\bin\debug\net472\categoriasexistentesvo.exe
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\categoriasexistentesvo\bin\debug\net472\categoriasexistentesvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:CategoriasExistentesVO
+++ClientesProveedoresPorCiudadVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\clientesporciudadvo\bin\debug\net472\clientesproveedoresporciudadvo.exe
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\clientesporciudadvo\bin\debug\net472\clientesproveedoresporciudadvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:ClientesProveedoresPorCiudadVO
+++DetalleVentaVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\detalleventavo\bin\debug\net472\detalleventavo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:DetalleVentaVO
+++EmpleadosMasVentas
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\empleadosmasventas\bin\debug\net472\empleadosmasventas.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:EmpleadosMasVentas
+++EmpleadosVentasPeriodoVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\empleadosventasperiodovo\bin\debug\net472\empleadosventasperiodovo.exe
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\empleadosventasperiodovo\bin\debug\net472\empleadosventasperiodovo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:EmpleadosVentasPeriodoVO
+++EstadoAPP
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{65732b12-10e4-45f7-b722-5283c8439795}:EstadoAPP
+++GamaProductosVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\gamaproductosvo\bin\debug\net472\gamaproductosvo.exe
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\gamaproductosvo\bin\debug\net472\gamaproductosvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:GamaProductosVO
+++ListadoVentasVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\listadoventasvo\bin\debug\net472\listadoventasvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:ListadoVentasVO
+++Microsoft.CSharp
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+++NorthWind_BLL
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{a38fa85c-f983-4ba9-9827-73db236d7991}:NorthWind_BLL
+++NumeroClientesVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\numeroclientesvo\bin\debug\net472\numeroclientesvo.exe
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\numeroclientesvo\bin\debug\net472\numeroclientesvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:NumeroClientesVO
+++NumeroEmpleadosVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\numeroempleadosvo\bin\debug\net472\numeroempleadosvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:NumeroEmpleadosVO
+++NumeroProductosVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\numeroproductosvo\bin\debug\net472\numeroproductosvo.exe
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\numeroproductosvo\bin\debug\net472\numeroproductosvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:NumeroProductosVO
+++NumeroProveedoresVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\numeroproveedoresvo\bin\debug\net472\numeroproveedoresvo.exe
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\numeroproveedoresvo\bin\debug\net472\numeroproveedoresvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:NumeroProveedoresVO
+++ProductoEnCategoriaVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\productoencategoriavo\bin\debug\net472\productoencategoriavo.exe
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\productoencategoriavo\bin\debug\net472\productoencategoriavo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:ProductoEnCategoriaVO
+++ProductosCarosVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\productoscarosvo\bin\debug\net472\productoscarosvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:ProductosCarosVO
+++PromedioVentasVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\promedioventasvo\bin\debug\net472\promedioventasvo.exe
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\promedioventasvo\bin\debug\net472\promedioventasvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:PromedioVentasVO
+++System
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{b876c818-77fd-46ab-8a63-a18598483998}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{ce8dd214-8766-4d44-808a-b318ff07f473}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{f03face7-4581-4503-9fab-2709014929a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{b262bb17-0012-4818-bd7c-07f24bf3081a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{a3f381c7-706d-4d68-a40e-db640018b83d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{9c2cfe13-267b-416a-84a7-4202ce8157f9}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{7650cb6e-5553-4bc3-9a2d-81df437a851a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{6efcd999-6c4b-490b-bf4e-7d99d77dbefa}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{c7ea48b2-ae9b-485a-bed0-b063bf27d386}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{086bd201-9b22-49f7-af00-fad9ae0a2831}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{21b361cb-3c5d-4eed-9bd0-663f49ba1486}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{06b5c277-b682-4ff2-875d-186f6b8b84a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{d437a5c8-5d7d-4730-a23f-1e18979f9f0d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{2c5bf4c2-77de-47b3-85a0-0b0b96280485}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{c6d48863-5640-4bf3-9e0f-b6e992d57847}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{8c4d9078-f936-4131-ab9a-8ad790fb1d61}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+i:{dc253f1a-2194-4415-8f1d-104cca4056bf}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.dll
+++System.Core
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{b876c818-77fd-46ab-8a63-a18598483998}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{ce8dd214-8766-4d44-808a-b318ff07f473}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{f03face7-4581-4503-9fab-2709014929a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{b262bb17-0012-4818-bd7c-07f24bf3081a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{a3f381c7-706d-4d68-a40e-db640018b83d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{9c2cfe13-267b-416a-84a7-4202ce8157f9}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{7650cb6e-5553-4bc3-9a2d-81df437a851a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{6efcd999-6c4b-490b-bf4e-7d99d77dbefa}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{c7ea48b2-ae9b-485a-bed0-b063bf27d386}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{086bd201-9b22-49f7-af00-fad9ae0a2831}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{21b361cb-3c5d-4eed-9bd0-663f49ba1486}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{06b5c277-b682-4ff2-875d-186f6b8b84a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{d437a5c8-5d7d-4730-a23f-1e18979f9f0d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{2c5bf4c2-77de-47b3-85a0-0b0b96280485}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{c6d48863-5640-4bf3-9e0f-b6e992d57847}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{8c4d9078-f936-4131-ab9a-8ad790fb1d61}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+i:{dc253f1a-2194-4415-8f1d-104cca4056bf}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.core.dll
+++System.Data
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{b876c818-77fd-46ab-8a63-a18598483998}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{ce8dd214-8766-4d44-808a-b318ff07f473}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{f03face7-4581-4503-9fab-2709014929a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{b262bb17-0012-4818-bd7c-07f24bf3081a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{a3f381c7-706d-4d68-a40e-db640018b83d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{9c2cfe13-267b-416a-84a7-4202ce8157f9}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{7650cb6e-5553-4bc3-9a2d-81df437a851a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{6efcd999-6c4b-490b-bf4e-7d99d77dbefa}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{c7ea48b2-ae9b-485a-bed0-b063bf27d386}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{086bd201-9b22-49f7-af00-fad9ae0a2831}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{21b361cb-3c5d-4eed-9bd0-663f49ba1486}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{06b5c277-b682-4ff2-875d-186f6b8b84a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{d437a5c8-5d7d-4730-a23f-1e18979f9f0d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{2c5bf4c2-77de-47b3-85a0-0b0b96280485}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{c6d48863-5640-4bf3-9e0f-b6e992d57847}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{8c4d9078-f936-4131-ab9a-8ad790fb1d61}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+i:{dc253f1a-2194-4415-8f1d-104cca4056bf}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.data.dll
+++System.Data.DataSetExtensions
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+++System.Deployment
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+++System.Drawing
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{b876c818-77fd-46ab-8a63-a18598483998}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{ce8dd214-8766-4d44-808a-b318ff07f473}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{f03face7-4581-4503-9fab-2709014929a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{b262bb17-0012-4818-bd7c-07f24bf3081a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{a3f381c7-706d-4d68-a40e-db640018b83d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{9c2cfe13-267b-416a-84a7-4202ce8157f9}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{7650cb6e-5553-4bc3-9a2d-81df437a851a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{6efcd999-6c4b-490b-bf4e-7d99d77dbefa}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{c7ea48b2-ae9b-485a-bed0-b063bf27d386}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{086bd201-9b22-49f7-af00-fad9ae0a2831}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{21b361cb-3c5d-4eed-9bd0-663f49ba1486}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{06b5c277-b682-4ff2-875d-186f6b8b84a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{d437a5c8-5d7d-4730-a23f-1e18979f9f0d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{2c5bf4c2-77de-47b3-85a0-0b0b96280485}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{c6d48863-5640-4bf3-9e0f-b6e992d57847}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{8c4d9078-f936-4131-ab9a-8ad790fb1d61}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+i:{dc253f1a-2194-4415-8f1d-104cca4056bf}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.drawing.dll
+++System.Net.Http
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+++System.Windows.Forms
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.windows.forms.dll
+++System.Windows.Forms.DataVisualization
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+++System.Xml
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{b876c818-77fd-46ab-8a63-a18598483998}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{ce8dd214-8766-4d44-808a-b318ff07f473}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{f03face7-4581-4503-9fab-2709014929a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{b262bb17-0012-4818-bd7c-07f24bf3081a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{a3f381c7-706d-4d68-a40e-db640018b83d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{9c2cfe13-267b-416a-84a7-4202ce8157f9}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{7650cb6e-5553-4bc3-9a2d-81df437a851a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{6efcd999-6c4b-490b-bf4e-7d99d77dbefa}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{c7ea48b2-ae9b-485a-bed0-b063bf27d386}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{086bd201-9b22-49f7-af00-fad9ae0a2831}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{21b361cb-3c5d-4eed-9bd0-663f49ba1486}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{06b5c277-b682-4ff2-875d-186f6b8b84a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{d437a5c8-5d7d-4730-a23f-1e18979f9f0d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{2c5bf4c2-77de-47b3-85a0-0b0b96280485}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{c6d48863-5640-4bf3-9e0f-b6e992d57847}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{8c4d9078-f936-4131-ab9a-8ad790fb1d61}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+i:{dc253f1a-2194-4415-8f1d-104cca4056bf}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.dll
+++System.Xml.Linq
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{b876c818-77fd-46ab-8a63-a18598483998}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{ce8dd214-8766-4d44-808a-b318ff07f473}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{f03face7-4581-4503-9fab-2709014929a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{b262bb17-0012-4818-bd7c-07f24bf3081a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{a3f381c7-706d-4d68-a40e-db640018b83d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{9c2cfe13-267b-416a-84a7-4202ce8157f9}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{7650cb6e-5553-4bc3-9a2d-81df437a851a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{6efcd999-6c4b-490b-bf4e-7d99d77dbefa}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{c7ea48b2-ae9b-485a-bed0-b063bf27d386}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{086bd201-9b22-49f7-af00-fad9ae0a2831}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{21b361cb-3c5d-4eed-9bd0-663f49ba1486}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{06b5c277-b682-4ff2-875d-186f6b8b84a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{d437a5c8-5d7d-4730-a23f-1e18979f9f0d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{2c5bf4c2-77de-47b3-85a0-0b0b96280485}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{c6d48863-5640-4bf3-9e0f-b6e992d57847}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{8c4d9078-f936-4131-ab9a-8ad790fb1d61}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+i:{dc253f1a-2194-4415-8f1d-104cca4056bf}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.xml.linq.dll
+++VentasAnualesVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\ventasanualesvo\bin\debug\net472\ventasanualesvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:VentasAnualesVO
+++VentasOrdenadasVO
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\ventasordenadasvo\bin\debug\net472\ventasordenadasvo.exe
+i:{70daf9b0-67d2-43f3-88c8-194b627876b6}:VentasOrdenadasVO
+++ControlesUsuario
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\
+++ClientesPorCiudadUC.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\clientesporciudaduc.cs
+++EmpleadosMasVentasPeriodoUC.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\empleadosmasventasperiodouc.cs
+++EmpleadosMasVentasUC.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\empleadosmasventasuc.cs
+++GamaProductosUC.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\gamaproductosuc.cs
+++HomeInfoUC.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\homeinfouc.cs
+++ListadoVentasUC.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\listadoventasuc.cs
+++LoadingUC.cs
+++ProductosCategoriaUC.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\productoscategoriauc.cs
+++ProductosOrdenadosUC.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\productosordenadosuc.cs
+++ProveedoresPorCiudadUC.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\proveedoresporciudaduc.cs
+++VentasAnualesUC.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\ventasanualesuc.cs
+++VentasImporteUC.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\ventasimporteuc.cs
+++Formularios
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\formularios\
+++baseline_face_black_48dp.png
+++baseline_home_black_24dp.png
+++baseline_inventory_black_48dp.png
+++baseline_monetization_on_black_24dp1.png
+++baseline_person_black_24dp.png
+++baseline_person_black_48dp1.png
+++baseline_search_black_18dp.png
+++baseline_support_agent_black_24dp.png
+++baseline_support_agent_black_48dp.png
+++Northwind-Computers-Converted.png
+++NorthWind_Form.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\formularios\northwind_form.cs
+++NorthWind_Form.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\formularios\northwind_form.designer.cs
+++NorthWind_Form.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\formularios\northwind_form.resx
+++App.config
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\app.config
+++Program.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\program.cs
+++Settings.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\properties\settings.designer.cs
+++ClientesPorCiudadUC.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\clientesporciudaduc.designer.cs
+++ClientesPorCiudadUC.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\clientesporciudaduc.resx
+++EmpleadosMasVentasPeriodoUC.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\empleadosmasventasperiodouc.designer.cs
+++EmpleadosMasVentasPeriodoUC.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\empleadosmasventasperiodouc.resx
+++EmpleadosMasVentasUC.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\empleadosmasventasuc.designer.cs
+++EmpleadosMasVentasUC.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\empleadosmasventasuc.resx
+++GamaProductosUC.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\gamaproductosuc.designer.cs
+++GamaProductosUC.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\gamaproductosuc.resx
+++HomeInfoUC.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\homeinfouc.designer.cs
+++HomeInfoUC.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\homeinfouc.resx
+++ListadoVentasUC.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\listadoventasuc.designer.cs
+++ListadoVentasUC.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\listadoventasuc.resx
+++LoadingUC.Designer.cs
+++LoadingUC.resx
+++ProductosCategoriaUC.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\productoscategoriauc.designer.cs
+++ProductosCategoriaUC.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\productoscategoriauc.resx
+++ProductosOrdenadosUC.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\productosordenadosuc.designer.cs
+++ProductosOrdenadosUC.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\productosordenadosuc.resx
+++ProveedoresPorCiudadUC.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\proveedoresporciudaduc.designer.cs
+++ProveedoresPorCiudadUC.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\proveedoresporciudaduc.resx
+++VentasAnualesUC.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\ventasanualesuc.designer.cs
+++VentasAnualesUC.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\ventasanualesuc.resx
+++VentasImporteUC.Designer.cs
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\ventasimporteuc.designer.cs
+++VentasImporteUC.resx
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\northwind\controlesusuario\ventasimporteuc.resx
+++BLL
+i:{00000000-0000-0000-0000-000000000000}:BLL
+++Dependencias
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:>918
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:>683
+i:{b876c818-77fd-46ab-8a63-a18598483998}:>993
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:>1875
+i:{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}:>771
+i:{ce8dd214-8766-4d44-808a-b318ff07f473}:>721
+i:{f03face7-4581-4503-9fab-2709014929a0}:>684
+i:{b262bb17-0012-4818-bd7c-07f24bf3081a}:>722
+i:{a3f381c7-706d-4d68-a40e-db640018b83d}:>1332
+i:{9c2cfe13-267b-416a-84a7-4202ce8157f9}:>723
+i:{7650cb6e-5553-4bc3-9a2d-81df437a851a}:>1068
+i:{6efcd999-6c4b-490b-bf4e-7d99d77dbefa}:>1107
+i:{c7ea48b2-ae9b-485a-bed0-b063bf27d386}:>1255
+i:{086bd201-9b22-49f7-af00-fad9ae0a2831}:>1218
+i:{21b361cb-3c5d-4eed-9bd0-663f49ba1486}:>1496
+i:{06b5c277-b682-4ff2-875d-186f6b8b84a0}:>1405
+i:{d437a5c8-5d7d-4730-a23f-1e18979f9f0d}:>1571
+i:{2c5bf4c2-77de-47b3-85a0-0b0b96280485}:>1760
+i:{c6d48863-5640-4bf3-9e0f-b6e992d57847}:>1761
+i:{8c4d9078-f936-4131-ab9a-8ad790fb1d61}:>1798
+i:{dc253f1a-2194-4415-8f1d-104cca4056bf}:>1952
+++NorthWind_BLL.cs
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\bll\northwind_bll\northwind_bll.cs
+++Ensamblados
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:ensamblados
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:ensamblados
+i:{b876c818-77fd-46ab-8a63-a18598483998}:ensamblados
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:ensamblados
+i:{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}:ensamblados
+i:{ce8dd214-8766-4d44-808a-b318ff07f473}:ensamblados
+i:{f03face7-4581-4503-9fab-2709014929a0}:ensamblados
+i:{b262bb17-0012-4818-bd7c-07f24bf3081a}:ensamblados
+i:{a3f381c7-706d-4d68-a40e-db640018b83d}:ensamblados
+i:{9c2cfe13-267b-416a-84a7-4202ce8157f9}:ensamblados
+i:{7650cb6e-5553-4bc3-9a2d-81df437a851a}:ensamblados
+i:{6efcd999-6c4b-490b-bf4e-7d99d77dbefa}:ensamblados
+i:{c7ea48b2-ae9b-485a-bed0-b063bf27d386}:ensamblados
+i:{086bd201-9b22-49f7-af00-fad9ae0a2831}:ensamblados
+i:{21b361cb-3c5d-4eed-9bd0-663f49ba1486}:ensamblados
+i:{06b5c277-b682-4ff2-875d-186f6b8b84a0}:ensamblados
+i:{d437a5c8-5d7d-4730-a23f-1e18979f9f0d}:ensamblados
+i:{2c5bf4c2-77de-47b3-85a0-0b0b96280485}:ensamblados
+i:{c6d48863-5640-4bf3-9e0f-b6e992d57847}:ensamblados
+i:{8c4d9078-f936-4131-ab9a-8ad790fb1d61}:ensamblados
+i:{dc253f1a-2194-4415-8f1d-104cca4056bf}:ensamblados
+++Proyectos
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:proyectos
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:proyectos
+++System.IO.Compression.FileSystem
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{b876c818-77fd-46ab-8a63-a18598483998}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{ce8dd214-8766-4d44-808a-b318ff07f473}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{f03face7-4581-4503-9fab-2709014929a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{b262bb17-0012-4818-bd7c-07f24bf3081a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{a3f381c7-706d-4d68-a40e-db640018b83d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{9c2cfe13-267b-416a-84a7-4202ce8157f9}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{7650cb6e-5553-4bc3-9a2d-81df437a851a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{6efcd999-6c4b-490b-bf4e-7d99d77dbefa}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{c7ea48b2-ae9b-485a-bed0-b063bf27d386}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{086bd201-9b22-49f7-af00-fad9ae0a2831}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{21b361cb-3c5d-4eed-9bd0-663f49ba1486}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{06b5c277-b682-4ff2-875d-186f6b8b84a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{d437a5c8-5d7d-4730-a23f-1e18979f9f0d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{2c5bf4c2-77de-47b3-85a0-0b0b96280485}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{c6d48863-5640-4bf3-9e0f-b6e992d57847}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{8c4d9078-f936-4131-ab9a-8ad790fb1d61}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+i:{dc253f1a-2194-4415-8f1d-104cca4056bf}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.io.compression.filesystem.dll
+++System.Numerics
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{b876c818-77fd-46ab-8a63-a18598483998}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{ce8dd214-8766-4d44-808a-b318ff07f473}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{f03face7-4581-4503-9fab-2709014929a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{b262bb17-0012-4818-bd7c-07f24bf3081a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{a3f381c7-706d-4d68-a40e-db640018b83d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{9c2cfe13-267b-416a-84a7-4202ce8157f9}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{7650cb6e-5553-4bc3-9a2d-81df437a851a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{6efcd999-6c4b-490b-bf4e-7d99d77dbefa}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{c7ea48b2-ae9b-485a-bed0-b063bf27d386}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{086bd201-9b22-49f7-af00-fad9ae0a2831}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{21b361cb-3c5d-4eed-9bd0-663f49ba1486}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{06b5c277-b682-4ff2-875d-186f6b8b84a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{d437a5c8-5d7d-4730-a23f-1e18979f9f0d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{2c5bf4c2-77de-47b3-85a0-0b0b96280485}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{c6d48863-5640-4bf3-9e0f-b6e992d57847}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{8c4d9078-f936-4131-ab9a-8ad790fb1d61}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+i:{dc253f1a-2194-4415-8f1d-104cca4056bf}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.numerics.dll
+++System.Runtime.Serialization
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{b876c818-77fd-46ab-8a63-a18598483998}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{ce8dd214-8766-4d44-808a-b318ff07f473}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{f03face7-4581-4503-9fab-2709014929a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{b262bb17-0012-4818-bd7c-07f24bf3081a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{a3f381c7-706d-4d68-a40e-db640018b83d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{9c2cfe13-267b-416a-84a7-4202ce8157f9}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{7650cb6e-5553-4bc3-9a2d-81df437a851a}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{6efcd999-6c4b-490b-bf4e-7d99d77dbefa}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{c7ea48b2-ae9b-485a-bed0-b063bf27d386}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{086bd201-9b22-49f7-af00-fad9ae0a2831}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{21b361cb-3c5d-4eed-9bd0-663f49ba1486}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{06b5c277-b682-4ff2-875d-186f6b8b84a0}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{d437a5c8-5d7d-4730-a23f-1e18979f9f0d}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{2c5bf4c2-77de-47b3-85a0-0b0b96280485}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{c6d48863-5640-4bf3-9e0f-b6e992d57847}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{8c4d9078-f936-4131-ab9a-8ad790fb1d61}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+i:{dc253f1a-2194-4415-8f1d-104cca4056bf}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.7.2\system.runtime.serialization.dll
+++NorthWind_DAL
+i:{f828bfd2-a098-436f-b679-6e9904a33867}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\dal\northwind_dal\bin\debug\net472\northwind_dal.exe
+i:{c8a5bb78-fcc3-48eb-9f92-ce25ce981e3c}:NorthWind_DAL
+++ProductosCategoriaVO
+++DAL
+i:{00000000-0000-0000-0000-000000000000}:DAL
+++DAL.cs
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\dal\northwind_dal\dal.cs
+++Paquetes
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:paquetes
+++System.Data.SqlClient (4.8.3)
+i:{a6cfc4ea-4e38-45a8-b581-29c43f281015}:>2061
+++Common
+i:{00000000-0000-0000-0000-000000000000}:Common
+++EstadoAPP.cs
+i:{b876c818-77fd-46ab-8a63-a18598483998}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\estadoapp\estadoapp.cs
+++BusquedaDataGridView.cs
+i:{a992b52e-e7e0-47d0-a006-6974b08bc525}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\busquedadatagridview\busquedadatagridview.cs
+++VO
+i:{65732b12-10e4-45f7-b722-5283c8439795}:VO
+++PromedioVentasVO.cs
+i:{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\promedioventasvo\promedioventasvo.cs
+++DetalleVentaVO.cs
+i:{ce8dd214-8766-4d44-808a-b318ff07f473}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\detalleventavo\detalleventavo.cs
+++ListadoVentasVO.cs
+i:{f03face7-4581-4503-9fab-2709014929a0}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\listadoventasvo\listadoventasvo.cs
+++ProductosCarosVO.cs
+i:{b262bb17-0012-4818-bd7c-07f24bf3081a}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\productoscarosvo\productoscarosvo.cs
+++VentasAnualesVO.cs
+i:{a3f381c7-706d-4d68-a40e-db640018b83d}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\ventasanualesvo\ventasanualesvo.cs
+++VentasOrdenadasVO.cs
+i:{9c2cfe13-267b-416a-84a7-4202ce8157f9}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\ventasordenadasvo\ventasordenadasvo.cs
+++NumeroEmpleadosVO.cs
+i:{7650cb6e-5553-4bc3-9a2d-81df437a851a}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\numeroempleadosvo\numeroempleadosvo.cs
+++EmpleadosMasVentasVO.cs
+i:{6efcd999-6c4b-490b-bf4e-7d99d77dbefa}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\empleadosmasventas\empleadosmasventasvo.cs
+++GamaProductosVO.cs
+i:{c7ea48b2-ae9b-485a-bed0-b063bf27d386}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\gamaproductosvo\gamaproductosvo.cs
+++EmpleadosVentasPeriodoVO.cs
+i:{086bd201-9b22-49f7-af00-fad9ae0a2831}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\empleadosventasperiodovo\empleadosventasperiodovo.cs
+++ClientesProveedoresPorCiudadVO.cs
+i:{21b361cb-3c5d-4eed-9bd0-663f49ba1486}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\clientesporciudadvo\clientesproveedoresporciudadvo.cs
+++ProductosCategoriaVO.cs
+++CategoriasConMasProductosVO.cs
+i:{06b5c277-b682-4ff2-875d-186f6b8b84a0}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\categoriasconmasproductosvo\categoriasconmasproductosvo.cs
+++CategoriasExistentesVO.cs
+i:{d437a5c8-5d7d-4730-a23f-1e18979f9f0d}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\categoriasexistentesvo\categoriasexistentesvo.cs
+++ProductoEnCategoriaVO.cs
+i:{2c5bf4c2-77de-47b3-85a0-0b0b96280485}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\productoencategoriavo\productoencategoriavo.cs
+++NumeroProveedoresVO.cs
+i:{c6d48863-5640-4bf3-9e0f-b6e992d57847}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\numeroproveedoresvo\numeroproveedoresvo.cs
+++NumeroClientesVO.cs
+i:{8c4d9078-f936-4131-ab9a-8ad790fb1d61}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\numeroclientesvo\numeroclientesvo.cs
+++NumeroProductosVO.cs
+i:{dc253f1a-2194-4415-8f1d-104cca4056bf}:g:\damp\damp\ulhi\damp2\di\di04\ejercicios\taev\northwind\common\vo\numeroproductosvo\numeroproductosvo.cs
+++Northwind-Computers-Converted1.png
+++NewFolder1
+++baseline_home_black_24dp1.png
+++baseline_home_black_24dp2.png
+++baseline_inventory_black_24dp1.png
+++baseline_monetization_on_black_24dp.png
+++baseline_person_black_24dp1.png
+++baseline_person_black_48dp.png
+++baseline_score_black_24dp.png
+++images
+++ob12y5o3.1ub~
+++ntmrwkvu.hub~
+++wrrpzuhg.kow~
+++v05d301b.0dw~
+++51m2qsfs.nny~
+++ua2yhgdh.don~
+++ihlekcz1.5m2~
+++myoh3ytf.wmn~
+++Solución "NorthWind" ‎(22 de 22 proyectos)
+i:{00000000-0000-0000-0000-000000000000}:NorthWind.sln
+++WindowsBase
+i:{61fd54a0-497f-4390-b847-d221b62cab80}:

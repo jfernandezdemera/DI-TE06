@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61FD54A0-497F-4390-B847-D221B62CAB80}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NORTHWIND</RootNamespace>
+    <AssemblyName>NORTHWIND</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Sesta\Desktop\Nueva carpeta\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6D7A21BBF04FF703AE088FBF47923E35085DEF5A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>NORTHWIND_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>NORTHWIND.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlesUsuario\InformesUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\InformesUC.Designer.cs">
+      <DependentUpon>InformesUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\IdPedidosRdlcParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\IdPedidosRdlcParams.Designer.cs">
+      <DependentUpon>IdPedidosRdlcParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\DateParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\DateParams.Designer.cs">
+      <DependentUpon>DateParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ProductosCategoríaParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ProductosCategoríaParams.Designer.cs">
+      <DependentUpon>ProductosCategoríaParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\VentasCategoriaParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\VentasCategoriaParams.Designer.cs">
+      <DependentUpon>VentasCategoriaParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Crystal\CategriaProductosReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\CategriaProductosReporte.Designer.cs">
+      <DependentUpon>CategriaProductosReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_rdlc\DetallePedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports_rdlc\DetallePedido.Designer.cs">
+      <DependentUpon>DetallePedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_rdlc\ProductosMasCaros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports_rdlc\ProductosMasCaros.Designer.cs">
+      <DependentUpon>ProductosMasCaros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_rdlc\DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_rdlc\DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\VentasClienteParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\VentasClienteParams.Designer.cs">
+      <DependentUpon>VentasClienteParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Crystal\BalanceProductos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BalanceProductos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\CategoriaProductos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategoriaProductos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ProductosActuales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductosActuales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ListadoVentas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListadoVentas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ProductosCategoriaReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ProductosCategoriaReporte.Designer.cs">
+      <DependentUpon>ProductosCategoriaReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ProductosCategoría.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductosCategoría.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ProductosDescatalogados.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductosDescatalogados.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ProductosActualesReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ProductosActualesReporte.Designer.cs">
+      <DependentUpon>ProductosActualesReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ProductosDescatalogadosReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ProductosDescatalogadosReporte.Designer.cs">
+      <DependentUpon>ProductosDescatalogadosReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ProveedoresCiudad.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProveedoresCiudad.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ClientesCiudad.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClientesCiudad.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\BalanceProductosReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\BalanceProductosReporte.Designer.cs">
+      <DependentUpon>BalanceProductosReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\ClientesPorCiudadUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\ClientesPorCiudadUC.Designer.cs">
+      <DependentUpon>ClientesPorCiudadUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\EmpleadosMasVentasPeriodoUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\EmpleadosMasVentasPeriodoUC.Designer.cs">
+      <DependentUpon>EmpleadosMasVentasPeriodoUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\EmpleadosMasVentasUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\EmpleadosMasVentasUC.Designer.cs">
+      <DependentUpon>EmpleadosMasVentasUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\GamaProductosUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\GamaProductosUC.Designer.cs">
+      <DependentUpon>GamaProductosUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\HomeInfoUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\HomeInfoUC.Designer.cs">
+      <DependentUpon>HomeInfoUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\ListadoVentasUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\ListadoVentasUC.Designer.cs">
+      <DependentUpon>ListadoVentasUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\ProductosCategoriaUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\ProductosCategoriaUC.Designer.cs">
+      <DependentUpon>ProductosCategoriaUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\ProductosOrdenadosUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\ProductosOrdenadosUC.Designer.cs">
+      <DependentUpon>ProductosOrdenadosUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\ProveedoresPorCiudadUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\ProveedoresPorCiudadUC.Designer.cs">
+      <DependentUpon>ProveedoresPorCiudadUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\VentasAnualesUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\VentasAnualesUC.Designer.cs">
+      <DependentUpon>VentasAnualesUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ClientesCiudadReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ClientesCiudadReporte.Designer.cs">
+      <DependentUpon>ClientesCiudadReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Crystal\EmpleadosVentas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmpleadosVentas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Formularios\NorthWind_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\NorthWind_Form.Designer.cs">
+      <DependentUpon>NorthWind_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\VentasImporteUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\VentasImporteUC.Designer.cs">
+      <DependentUpon>VentasImporteUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Crystal\EmpleadosVentasReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\EmpleadosVentasReporte.Designer.cs">
+      <DependentUpon>EmpleadosVentasReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes_Crystal\ListadoVentasReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ListadoVentasReporte.Designer.cs">
+      <DependentUpon>ListadoVentasReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ProveedoresCiudadReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\ProveedoresCiudadReporte.Designer.cs">
+      <DependentUpon>ProveedoresCiudadReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Crystal\VentasAnualesReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\VentasAnualesReporte.Designer.cs">
+      <DependentUpon>VentasAnualesReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Crystal\VentasAnuales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VentasAnuales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\VentasImporteReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\VentasImporteReporte.Designer.cs">
+      <DependentUpon>VentasImporteReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Crystal\VentasImporte.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VentasImporte.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\VentasPeriodo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VentasPeriodo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\VentasPeriodoReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Crystal\VentasPeriodoReporte.Designer.cs">
+      <DependentUpon>VentasPeriodoReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_rdlc\VentasAno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports_rdlc\VentasAno.Designer.cs">
+      <DependentUpon>VentasAno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_rdlc\VentasCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports_rdlc\VentasCategoria.Designer.cs">
+      <DependentUpon>VentasCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_rdlc\VentasCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports_rdlc\VentasCliente.Designer.cs">
+      <DependentUpon>VentasCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_rdlc\VentasEmpleadosPoblacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports_rdlc\VentasEmpleadosPoblacion.Designer.cs">
+      <DependentUpon>VentasEmpleadosPoblacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="ControlesUsuario\InformesUC.resx">
+      <DependentUpon>InformesUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\IdPedidosRdlcParams.resx">
+      <DependentUpon>IdPedidosRdlcParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\DateParams.resx">
+      <DependentUpon>DateParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ProductosCategoríaParams.resx">
+      <DependentUpon>ProductosCategoríaParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\VentasCategoriaParams.resx">
+      <DependentUpon>VentasCategoriaParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\BalanceProductos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BalanceProductos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\CategoriaProductos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CategoriaProductos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\CategriaProductosReporte.resx">
+      <DependentUpon>CategriaProductosReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\ProductosActuales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProductosActuales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\ListadoVentas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListadoVentas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\ProductosActualesReporte.resx">
+      <DependentUpon>ProductosActualesReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\ProductosCategoriaReporte.resx">
+      <DependentUpon>ProductosCategoriaReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\ProductosCategoría.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProductosCategoría.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\ProductosDescatalogados.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProductosDescatalogados.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\ProductosDescatalogadosReporte.resx">
+      <DependentUpon>ProductosDescatalogadosReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\ProveedoresCiudad.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProveedoresCiudad.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\ClientesCiudad.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ClientesCiudad.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\BalanceProductosReporte.resx">
+      <DependentUpon>BalanceProductosReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\ClientesPorCiudadUC.resx">
+      <DependentUpon>ClientesPorCiudadUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\EmpleadosMasVentasPeriodoUC.resx">
+      <DependentUpon>EmpleadosMasVentasPeriodoUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\EmpleadosMasVentasUC.resx">
+      <DependentUpon>EmpleadosMasVentasUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\GamaProductosUC.resx">
+      <DependentUpon>GamaProductosUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\HomeInfoUC.resx">
+      <DependentUpon>HomeInfoUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\ListadoVentasUC.resx">
+      <DependentUpon>ListadoVentasUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\ProductosCategoriaUC.resx">
+      <DependentUpon>ProductosCategoriaUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\ProductosOrdenadosUC.resx">
+      <DependentUpon>ProductosOrdenadosUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\ProveedoresPorCiudadUC.resx">
+      <DependentUpon>ProveedoresPorCiudadUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\VentasAnualesUC.resx">
+      <DependentUpon>VentasAnualesUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\ClientesCiudadReporte.resx">
+      <DependentUpon>ClientesCiudadReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\EmpleadosVentas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmpleadosVentas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\NorthWind_Form.resx">
+      <DependentUpon>NorthWind_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\VentasImporteUC.resx">
+      <DependentUpon>VentasImporteUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\EmpleadosVentasReporte.resx">
+      <DependentUpon>EmpleadosVentasReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\ListadoVentasReporte.resx">
+      <DependentUpon>ListadoVentasReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\ProveedoresCiudadReporte.resx">
+      <DependentUpon>ProveedoresCiudadReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\VentasAnualesReporte.resx">
+      <DependentUpon>VentasAnualesReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\VentasAnuales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VentasAnuales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\VentasImporteReporte.resx">
+      <DependentUpon>VentasImporteReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\VentasImporte.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VentasImporte.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\VentasPeriodo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VentasPeriodo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Crystal\VentasPeriodoReporte.resx">
+      <DependentUpon>VentasPeriodoReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_rdlc\DetallePedido.rdlc" />
+    <EmbeddedResource Include="Reports_rdlc\DetallePedido.resx">
+      <DependentUpon>DetallePedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_rdlc\ProductosMasCaros.rdlc" />
+    <EmbeddedResource Include="Reports_rdlc\ProductosMasCaros.resx">
+      <DependentUpon>ProductosMasCaros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_rdlc\VentasAno.rdlc" />
+    <EmbeddedResource Include="Reports_rdlc\VentasAno.resx">
+      <DependentUpon>VentasAno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_rdlc\VentasCategoria.rdlc" />
+    <EmbeddedResource Include="Reports_rdlc\VentasCategoria.resx">
+      <DependentUpon>VentasCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_rdlc\VentasCliente.resx">
+      <DependentUpon>VentasCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\VentasClienteParams.resx">
+      <DependentUpon>VentasClienteParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_rdlc\VentasCliente.rdlc" />
+    <EmbeddedResource Include="Reports_rdlc\VentasEmpleadosPoblacion.rdlc" />
+    <EmbeddedResource Include="Reports_rdlc\VentasEmpleadosPoblacion.resx">
+      <DependentUpon>VentasEmpleadosPoblacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Reports_rdlc\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Reports_rdlc\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reports_rdlc\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\NorthWind_BLL\NorthWind_BLL.csproj">
+      <Project>{f828bfd2-a098-436f-b679-6e9904a33867}</Project>
+      <Name>NorthWind_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\BusquedaDataGridView\BusquedaDataGridView.csproj">
+      <Project>{a992b52e-e7e0-47d0-a006-6974b08bc525}</Project>
+      <Name>BusquedaDataGridView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\EstadoAPP\EstadoAPP.csproj">
+      <Project>{b876c818-77fd-46ab-8a63-a18598483998}</Project>
+      <Name>EstadoAPP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\CategoriasConMasProductosVO\CategoriasConMasProductosVO.csproj">
+      <Project>{06B5C277-B682-4FF2-875D-186F6B8B84A0}</Project>
+      <Name>CategoriasConMasProductosVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\CategoriasExistentesVO\CategoriasExistentesVO.csproj">
+      <Project>{D437A5C8-5D7D-4730-A23F-1E18979F9F0D}</Project>
+      <Name>CategoriasExistentesVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\ClientesPorCiudadVO\ClientesProveedoresPorCiudadVO.csproj">
+      <Project>{21B361CB-3C5D-4EED-9BD0-663F49BA1486}</Project>
+      <Name>ClientesProveedoresPorCiudadVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\DatosClientesVO\DatosClientesVO.csproj">
+      <Project>{3018040A-84B3-4BCA-95E1-CDA70A778205}</Project>
+      <Name>DatosClientesVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\DetalleVentaVO\DetalleVentaVO.csproj">
+      <Project>{ce8dd214-8766-4d44-808a-b318ff07f473}</Project>
+      <Name>DetalleVentaVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\EmpleadosMasVentas\EmpleadosMasVentas.csproj">
+      <Project>{6EFCD999-6C4B-490B-BF4E-7D99D77DBEFA}</Project>
+      <Name>EmpleadosMasVentas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\EmpleadosVentasPeriodoVO\EmpleadosVentasPeriodoVO.csproj">
+      <Project>{086bd201-9b22-49f7-af00-fad9ae0a2831}</Project>
+      <Name>EmpleadosVentasPeriodoVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\GamaProductosVO\GamaProductosVO.csproj">
+      <Project>{c7ea48b2-ae9b-485a-bed0-b063bf27d386}</Project>
+      <Name>GamaProductosVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\IdPedidoVO\IdPedidoVO.csproj">
+      <Project>{7DC26659-FCE1-4C79-9945-BD6781840680}</Project>
+      <Name>IdPedidoVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\ListadoVentasVO\ListadoVentasVO.csproj">
+      <Project>{f03face7-4581-4503-9fab-2709014929a0}</Project>
+      <Name>ListadoVentasVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\NumeroClientesVO\NumeroClientesVO.csproj">
+      <Project>{8C4D9078-F936-4131-AB9A-8AD790FB1D61}</Project>
+      <Name>NumeroClientesVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\NumeroEmpleadosVO\NumeroEmpleadosVO.csproj">
+      <Project>{7650CB6E-5553-4BC3-9A2D-81DF437A851A}</Project>
+      <Name>NumeroEmpleadosVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\NumeroProductosVO\NumeroProductosVO.csproj">
+      <Project>{DC253F1A-2194-4415-8F1D-104CCA4056BF}</Project>
+      <Name>NumeroProductosVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\NumeroProveedoresVO\NumeroProveedoresVO.csproj">
+      <Project>{C6D48863-5640-4BF3-9E0F-B6E992D57847}</Project>
+      <Name>NumeroProveedoresVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\ProductoEnCategoriaVO\ProductoEnCategoriaVO.csproj">
+      <Project>{2C5BF4C2-77DE-47B3-85A0-0B0B96280485}</Project>
+      <Name>ProductoEnCategoriaVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\ProductosCarosVO\ProductosCarosVO.csproj">
+      <Project>{b262bb17-0012-4818-bd7c-07f24bf3081a}</Project>
+      <Name>ProductosCarosVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\PromedioVentasVO\PromedioVentasVO.csproj">
+      <Project>{2ecdcbb9-0ef6-4e41-be58-598762de2d5a}</Project>
+      <Name>PromedioVentasVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\VentasAnualesVO\VentasAnualesVO.csproj">
+      <Project>{A3F381C7-706D-4D68-A40E-DB640018B83D}</Project>
+      <Name>VentasAnualesVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\VO\VentasOrdenadasVO\VentasOrdenadasVO.csproj">
+      <Project>{9c2cfe13-267b-416a-84a7-4202ce8157f9}</Project>
+      <Name>VentasOrdenadasVO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\VO\CategoriasConMasProductosVO\CategoriasConMasProductosVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\CategoriasExistentesVO\CategoriasExistentesVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\ClientesPorCiudadVO\ClientesProveedoresPorCiudadVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\EmpleadosVentasPeriodoVO\EmpleadosVentasPeriodoVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\GamaProductosVO\GamaProductosVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\NumeroClientesVO\NumeroClientesVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\NumeroProductosVO\NumeroProductosVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\NumeroProveedoresVO\NumeroProveedoresVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\ProductoEnCategoriaVO\ProductoEnCategoriaVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\PromedioVentasVO\PromedioVentasVO.csproj" />
+    <ProjectReference Include="..\..\DAL\NorthWind_DAL\NorthWind_DAL.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "61fd54a0-497f-4390-b847-d221b62cab80": {
+      "ProjectGuid": "61fd54a0-497f-4390-b847-d221b62cab80",
+      "DisplayName": "NORTHWIND",
+      "ColorIndex": 0
+    },
+    "06249135-d9e5-4cfa-90bb-b6861ada76d9": {
+      "ProjectGuid": "06249135-d9e5-4cfa-90bb-b6861ada76d9",
+      "DisplayName": "UI",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "0448eaf3-97b3-4fe5-bc6e-fbe09499b509": {
+      "ProjectGuid": "0448eaf3-97b3-4fe5-bc6e-fbe09499b509",
+      "DisplayName": "NorthWind_BLL",
+      "ColorIndex": 2
+    },
+    "ffd8ad9b-b210-4d73-9e00-7571c0dc1593": {
+      "ProjectGuid": "ffd8ad9b-b210-4d73-9e00-7571c0dc1593",
+      "DisplayName": "NorthWind_BLL",
+      "ColorIndex": 3
+    },
+    "d00e34f3-e25b-4d23-9b18-b0dbbfca1835": {
+      "ProjectGuid": "d00e34f3-e25b-4d23-9b18-b0dbbfca1835",
+      "DisplayName": "NorthWind_BLL",
+      "ColorIndex": 4
+    },
+    "3787ae8e-0f8b-41db-98a9-9769888392d9": {
+      "ProjectGuid": "3787ae8e-0f8b-41db-98a9-9769888392d9",
+      "DisplayName": "NorthWind_DAL",
+      "ColorIndex": 5
+    },
+    "bb9e899a-8f7f-4528-9917-a4ffe8005900": {
+      "ProjectGuid": "bb9e899a-8f7f-4528-9917-a4ffe8005900",
+      "DisplayName": "DetalleVenta",
+      "ColorIndex": 6
+    },
+    "f1f404be-c522-4732-8fd3-d80f1639f113": {
+      "ProjectGuid": "f1f404be-c522-4732-8fd3-d80f1639f113",
+      "DisplayName": "ListadoVentas",
+      "ColorIndex": 7
+    },
+    "a64c2ee5-977e-48cf-bd58-2f49e798531b": {
+      "ProjectGuid": "a64c2ee5-977e-48cf-bd58-2f49e798531b",
+      "DisplayName": "ProductosCaros",
+      "ColorIndex": 8
+    },
+    "765e5b9b-6b5e-4558-81cd-d78f669ad6f7": {
+      "ProjectGuid": "765e5b9b-6b5e-4558-81cd-d78f669ad6f7",
+      "DisplayName": "PromedioVenta",
+      "ColorIndex": 9
+    },
+    "98ebfab2-669b-4b17-9499-cf8b722e086c": {
+      "ProjectGuid": "98ebfab2-669b-4b17-9499-cf8b722e086c",
+      "DisplayName": "VentasAnuales",
+      "ColorIndex": 10
+    },
+    "b75a6544-d0e9-444e-8bce-42a09772be16": {
+      "ProjectGuid": "b75a6544-d0e9-444e-8bce-42a09772be16",
+      "DisplayName": "VentasOrdenadas",
+      "ColorIndex": 11
+    },
+    "5f1ed827-6bb0-4a55-9844-5e760d8e0e02": {
+      "ProjectGuid": "5f1ed827-6bb0-4a55-9844-5e760d8e0e02",
+      "DisplayName": "APP_STATE",
+      "ColorIndex": 12
+    },
+    "ae176283-bda7-4543-be1a-c6aeecdb2c61": {
+      "ProjectGuid": "ae176283-bda7-4543-be1a-c6aeecdb2c61",
+      "DisplayName": "NorthWind_BLL",
+      "ColorIndex": 13
+    },
+    "f828bfd2-a098-436f-b679-6e9904a33867": {
+      "ProjectGuid": "f828bfd2-a098-436f-b679-6e9904a33867",
+      "DisplayName": "NorthWind_BLL",
+      "ColorIndex": 14
+    },
+    "a6cfc4ea-4e38-45a8-b581-29c43f281015": {
+      "ProjectGuid": "a6cfc4ea-4e38-45a8-b581-29c43f281015",
+      "DisplayName": "NorthWind_DAL",
+      "ColorIndex": 15
+    },
+    "2ecdcbb9-0ef6-4e41-be58-598762de2d5a": {
+      "ProjectGuid": "2ecdcbb9-0ef6-4e41-be58-598762de2d5a",
+      "DisplayName": "PromedioVentasVO",
+      "ColorIndex": 0
+    },
+    "ce8dd214-8766-4d44-808a-b318ff07f473": {
+      "ProjectGuid": "ce8dd214-8766-4d44-808a-b318ff07f473",
+      "DisplayName": "DetalleVentaVO",
+      "ColorIndex": 1
+    },
+    "f03face7-4581-4503-9fab-2709014929a0": {
+      "ProjectGuid": "f03face7-4581-4503-9fab-2709014929a0",
+      "DisplayName": "ListadoVentasVO",
+      "ColorIndex": 2
+    },
+    "b262bb17-0012-4818-bd7c-07f24bf3081a": {
+      "ProjectGuid": "b262bb17-0012-4818-bd7c-07f24bf3081a",
+      "DisplayName": "ProductosCarosVO",
+      "ColorIndex": 3
+    },
+    "a3f381c7-706d-4d68-a40e-db640018b83d": {
+      "ProjectGuid": "a3f381c7-706d-4d68-a40e-db640018b83d",
+      "DisplayName": "VentasAnualesVO",
+      "ColorIndex": 4
+    },
+    "9c2cfe13-267b-416a-84a7-4202ce8157f9": {
+      "ProjectGuid": "9c2cfe13-267b-416a-84a7-4202ce8157f9",
+      "DisplayName": "VentasOrdenadasVO",
+      "ColorIndex": 5
+    },
+    "b876c818-77fd-46ab-8a63-a18598483998": {
+      "ProjectGuid": "b876c818-77fd-46ab-8a63-a18598483998",
+      "DisplayName": "EstadoAPP",
+      "ColorIndex": 6
+    },
+    "7650cb6e-5553-4bc3-9a2d-81df437a851a": {
+      "ProjectGuid": "7650cb6e-5553-4bc3-9a2d-81df437a851a",
+      "DisplayName": "NumeroEmpleadosVO",
+      "ColorIndex": 7
+    },
+    "6efcd999-6c4b-490b-bf4e-7d99d77dbefa": {
+      "ProjectGuid": "6efcd999-6c4b-490b-bf4e-7d99d77dbefa",
+      "DisplayName": "EmpleadosMasVentas",
+      "ColorIndex": 8
+    },
+    "c7ea48b2-ae9b-485a-bed0-b063bf27d386": {
+      "ProjectGuid": "c7ea48b2-ae9b-485a-bed0-b063bf27d386",
+      "DisplayName": "GamaProductosVO",
+      "ColorIndex": 9
+    },
+    "086bd201-9b22-49f7-af00-fad9ae0a2831": {
+      "ProjectGuid": "086bd201-9b22-49f7-af00-fad9ae0a2831",
+      "DisplayName": "EmpleadosVentasPeriodoVO",
+      "ColorIndex": 10
+    },
+    "21b361cb-3c5d-4eed-9bd0-663f49ba1486": {
+      "ProjectGuid": "21b361cb-3c5d-4eed-9bd0-663f49ba1486",
+      "DisplayName": "ClientesProveedoresPorCiudadVO",
+      "ColorIndex": 11
+    },
+    "222e7620-9e23-4824-80ee-6364d1fef54d": {
+      "ProjectGuid": "222e7620-9e23-4824-80ee-6364d1fef54d",
+      "DisplayName": "ProductosCategoriaVO",
+      "ColorIndex": 12
+    },
+    "06b5c277-b682-4ff2-875d-186f6b8b84a0": {
+      "ProjectGuid": "06b5c277-b682-4ff2-875d-186f6b8b84a0",
+      "DisplayName": "CategoriasConMasProductosVO",
+      "ColorIndex": 13
+    },
+    "d437a5c8-5d7d-4730-a23f-1e18979f9f0d": {
+      "ProjectGuid": "d437a5c8-5d7d-4730-a23f-1e18979f9f0d",
+      "DisplayName": "CategoriasExistentesVO",
+      "ColorIndex": 14
+    },
+    "2c5bf4c2-77de-47b3-85a0-0b0b96280485": {
+      "ProjectGuid": "2c5bf4c2-77de-47b3-85a0-0b0b96280485",
+      "DisplayName": "ProductoEnCategoriaVO",
+      "ColorIndex": 15
+    },
+    "a992b52e-e7e0-47d0-a006-6974b08bc525": {
+      "ProjectGuid": "a992b52e-e7e0-47d0-a006-6974b08bc525",
+      "DisplayName": "BusquedaDataGridView",
+      "ColorIndex": 0
+    },
+    "c6d48863-5640-4bf3-9e0f-b6e992d57847": {
+      "ProjectGuid": "c6d48863-5640-4bf3-9e0f-b6e992d57847",
+      "DisplayName": "NumeroProveedoresVO",
+      "ColorIndex": 1
+    },
+    "8c4d9078-f936-4131-ab9a-8ad790fb1d61": {
+      "ProjectGuid": "8c4d9078-f936-4131-ab9a-8ad790fb1d61",
+      "DisplayName": "NumeroClientesVO",
+      "ColorIndex": 2
+    },
+    "dc253f1a-2194-4415-8f1d-104cca4056bf": {
+      "ProjectGuid": "dc253f1a-2194-4415-8f1d-104cca4056bf",
+      "DisplayName": "NumeroProductosVO",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\VO\CategoriasConMasProductosVO\CategoriasConMasProductosVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\CategoriasExistentesVO\CategoriasExistentesVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\ClientesPorCiudadVO\ClientesProveedoresPorCiudadVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\DatosClientesVO\DatosClientesVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\DetalleVentaVO\DetalleVentaVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\EmpleadosMasVentas\EmpleadosMasVentas.csproj" />
+    <ProjectReference Include="..\..\Common\VO\EmpleadosVentasPeriodoVO\EmpleadosVentasPeriodoVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\GamaProductosVO\GamaProductosVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\IdPedidoVO\IdPedidoVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\ListadoVentasVO\ListadoVentasVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\NumeroClientesVO\NumeroClientesVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\NumeroEmpleadosVO\NumeroEmpleadosVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\NumeroProductosVO\NumeroProductosVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\NumeroProveedoresVO\NumeroProveedoresVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\ProductoEnCategoriaVO\ProductoEnCategoriaVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\ProductosCarosVO\ProductosCarosVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\PromedioVentasVO\PromedioVentasVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\VentasAnualesVO\VentasAnualesVO.csproj" />
+    <ProjectReference Include="..\..\Common\VO\VentasOrdenadasVO\VentasOrdenadasVO.csproj" />
+  </ItemGroup>
+
+</Project>
