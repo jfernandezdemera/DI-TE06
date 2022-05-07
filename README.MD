@@ -26,8 +26,10 @@ ESTA APLICACIÓN ESTÁ ORIENTARA PARA CUALQUIER USO CON FINES NO COMERCIALES. PO
 ### Pre-requisitos 📋 
 
 ```
-Microsoft Visual Studio
+Esta aplicación únicamente funciona y compilar bajo el sistema operativo Windows.
 ```
+* Microsoft Visual Studio
+
 <div id='id3' />
 
 ### Instalación 🔧
@@ -49,7 +51,6 @@ Esto nos generará un instalable que podemos distribuir o instalar en el equipo 
 `NORTHWIND\Installer\Release\Installer.msi`
 ```
 Después de arrancar el instalador y completar el Wizard:
-
 ```
 ![Installer 1](/git_images/installer1.PNG "Instalador 1")
 
@@ -58,6 +59,16 @@ Después de arrancar el instalador y completar el Wizard:
 ![Installer 1](/git_images/installer3.PNG "Instalador 3")
 
 ![Installer 1](/git_images/installer4.PNG "Instalador 4")
+
+```
+Nos generará un acceso directo en el Escritorio:
+```
+![Shortcut](/git_images/shortcut.PNG "Acceso directo")
+
+```
+Otra manera de acceder a la aplicación será mediante el menu de inicio de Windows:
+```
+![ShortcutHome](/git_images/shortcutHome.PNG "Acceso directo inicio")
 
 <div id='id4' />
 
